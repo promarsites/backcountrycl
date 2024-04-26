@@ -138,7 +138,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1920px) {
 
 			body, input, select, textarea {
 				font-size: 12pt;
@@ -859,7 +859,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1920px) {
 
 			.row {
 				display: flex;
@@ -3573,7 +3573,7 @@ input, select, textarea {
 			text-transform: uppercase;
 		}
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 1920px) {
 
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
@@ -4006,6 +4006,10 @@ input, select, textarea {
 		}
 
 /* Footer */
+	#footer {
+			background-color: #0b1f0e;
+			background-image: linear-gradient(to top, rgb(18, 48, 22, 0.8), rgba(101, 145, 98, 0.8));
+	}
 
 	#footer .inner {
 		padding: 5em 0 3em 0 ;
@@ -4023,6 +4027,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		margin: 0 auto;
 		width: 55em;
+		
 	}
 
 		#footer .inner > * {
@@ -4067,7 +4072,7 @@ input, select, textarea {
 					color: inherit;
 				}
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 1980px) {
 
 		#footer {
 			background-color: #0b1f0e;
