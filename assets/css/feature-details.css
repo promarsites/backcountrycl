@@ -1,0 +1,21 @@
+/* Gallery section */
+.gallery {
+    padding: 20px;
+    text-align: center;
+    margin-top: 4em;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);   
+}

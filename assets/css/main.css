@@ -2416,12 +2416,16 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
-	}
-
-		.image img {
+		
+		img {
 			border-radius: 5px;
 			display: block;
+
+			&:hover {
+				transform: scale(1.05);
+			}
 		}
+	}
 
 		.image.left, .image.right {
 			max-width: 40%;
@@ -4007,12 +4011,13 @@ input, select, textarea {
 
 /* Footer */
 	#footer {
-			background-color: #0b1f0e;
-			background-image: linear-gradient(to top, rgb(18, 48, 22, 0.8), rgba(101, 145, 98, 0.8));
+		margin-top: -10em;
+		padding-top: 15em;
+		background-color: #0b1f0e;
+		background-image: linear-gradient(to top, rgb(18, 48, 22, 0.8), rgba(101, 145, 98, 0.8));
 	}
 
 	#footer .inner {
-		padding: 5em 0 3em 0 ;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
